@@ -1,0 +1,10 @@
+[Unit]
+Description=usbip client
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/sbin/usbip_service.py
+
+[Install]
+WantedBy=multi-user.target
