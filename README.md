@@ -5,8 +5,11 @@
 Description:
 
 RPI - Client
+
 PC - Server
+
 Client and server are connected via WiFi.
+
 Available USB devices connected on server side will be visible on client side.
 
 ******************************************************************************************
