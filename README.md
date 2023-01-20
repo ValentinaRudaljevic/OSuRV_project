@@ -2,12 +2,20 @@
 
 ******************************************************************************************
 
-Client is RPI and server is PC. Client and server are connected via WiFi.
+Description:
+
+RPI - Client
+
+PC - Server
+
+Client and server are connected via WiFi.
+
 Available USB devices connected on server side will be visible on client side.
 
 ******************************************************************************************
 
 Instructions:
+
 - Open two terminals - one for client and one for server
 
 - Insert joystick, as USB device, on your PC
@@ -19,5 +27,11 @@ Instructions:
 - Now joystick should be visible on client side; check with "lsusb" command
 
 - On client side type "jstest /dev/input/<joystick_device>" command and use the joystick 
+
+******************************************************************************************
+
+Youtube link:
+
+https://www.youtube.com/watch?v=osDGlKg-eHY
 
 ******************************************************************************************
